@@ -1,12 +1,17 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+
+/* h1{
     background-color: green;
     border: 10px solid red;
-}
+} */
 
 *{
     margin: 0;
     padding: 0;   
 }
+
+/* boiler css item */
 
 .container{
     width: 90%;
@@ -55,3 +60,34 @@ h1{
  .circle{
     border-radius: 50%;
  }
+
+ .banner{
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(0,0,0,.5); */
+    border: 2px solid white;
+    border-radius: 20px;
+ }
+
+ .banner-content{
+    margin: 177px 344px;
+    background-color: rgba(0,0,0,.5);
+ }
+
+ .banner-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+ }
+
+ .banner-message{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+ }
+
