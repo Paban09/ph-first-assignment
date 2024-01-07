@@ -66,13 +66,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: rgba(0,0,0,.5); */
-    border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 20px;   
  }
 
  .banner-content{
-    margin: 177px 344px;
+    padding: 177px 344px;
     background-color: rgba(0,0,0,.5);
+    /* border: 2px solid white; */
+    border-radius: 20px;
  }
 
  .banner-title{
