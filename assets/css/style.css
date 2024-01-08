@@ -341,12 +341,7 @@
 
 .footer-second-content{
     margin-bottom: 50px;
-}
-
-.footer-second-content li{
-    list-style: none;
     display: flex;
     justify-content: center;
     gap: 25px;
-    
 }
