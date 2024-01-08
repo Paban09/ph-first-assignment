@@ -291,6 +291,14 @@
     line-height: 32px; 
 }
 
+.holiday-image-section{
+    height: 662px;
+    border-radius: 20px;
+    background-image: url('../images/group44.png'),url('../images/group75.png'),url('../images/rectangle2.png'),url('../images/rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: 70% top,left, bottom,top right;
+}
+
 /* portfolio section  */
 
 
