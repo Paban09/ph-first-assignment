@@ -241,6 +241,72 @@
 }
 
 .single-image{
-    width: 390px;
-    height: 390px;
+    width: 395px;
+    height: 395px;
+}
+
+
+/* subscribe section  */
+.subscribe{
+    /* background-color: blanchedalmond; */
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.subscribe-content{
+    padding: 80px 212px;
+}
+
+.subscribe-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    /* font-style: normal; */
+    font-weight: 900;
+    /* line-height: normal; */
+    text-transform: capitalize;
+}
+
+.subscribe-message{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.subscribe-form{
+    text-align: center;
+}
+
+.form-input{
+    text-align: center;
+    width: 500px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    font-size: 20px;
+    /* font-weight: 600; */
+}
+
+.form-input-btn{
+    color: #FFF;
+    background-color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    height: 72px;
+    width: 150px;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+}
+
+.subscribe-image{
+    display: flex;
+    justify-content: center;
 }
