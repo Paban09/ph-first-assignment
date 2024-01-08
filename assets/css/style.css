@@ -81,6 +81,10 @@
  }
 
 
+ .text-danger{
+    color: red;
+ }
+
  .circle{
     border-radius: 50%;
  }
@@ -252,19 +256,41 @@
 }
 
 
-/* subscribe section  */
-.subscribe{
-    background-color: rgba(255, 0, 0, 0.05);
-    border-radius: 20px;
+/* join section  */
+.join-content-title{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
 }
 
-.subscribe-content{
+.join-button{
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-family: Inter;
+    text-transform: capitalize;
+
+}
+
+
+/* subscribe section  */
+.subscribe, .join{
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.subscribe-content, .join-content{
     padding: 80px 212px;
 }
 
 .subscribe-title{
     color: #070211;
-    text-align: center;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
@@ -273,7 +299,6 @@
 
 .subscribe-message{
     color: rgba(7, 2, 17, 0.60);
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -345,3 +370,5 @@
     justify-content: center;
     gap: 25px;
 }
+
+
